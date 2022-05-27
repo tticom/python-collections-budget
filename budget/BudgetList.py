@@ -31,6 +31,7 @@ class BudgetList:
     except StopIteration as stop:
       return self.iter_o.__next__()
 
+
 def main():
   myBudgetList = BudgetList(1200)
   expenses = Expense.Expenses()
